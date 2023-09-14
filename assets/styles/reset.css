@@ -1,0 +1,22 @@
+/* Reset all margin and padding to zero, and remove list styles */
+html, body, ul, ol, li, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Set a baseline font size and remove text decoration from links */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ensure images are not resized by default */
+img {
+  max-width: 100%;
+  height: auto;
+}
